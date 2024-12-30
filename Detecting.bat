@@ -13,7 +13,7 @@ echo 3» OSForensics          8» Check Services         13» UsbDeview         
 echo 4» Event Viewer         9» Journal Trace          14» FTKimager+RAMDump     19» Prefetch View            
 echo 5» PowerShell History   10» Last Activity View    15» RegScanner            20» Threat View              
 set /p input=%bs% »»
-if /I %input% EQU 1 start https://sourceforge.net/projects/systeminformer/files/systeminformer-3.0.7660-release-setup.exe/download
+if /I %input% EQU 1 start https://github.com/winsiderss/si-builds/releases/download/3.1.24333/systeminformer-3.1.24333-canary-setup.exe
 if /I %input% EQU 2 start https://www.voidtools.com/Everything-1.4.1.1026.x86-Setup.exe
 if /I %input% EQU 3 start https://osforensics.com/downloads/osf.exe
 if /I %input% EQU 4 start eventvwr.msc
